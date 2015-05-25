@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8" />
+		<title>Тестовое задание</title>
+		
+		<link rel="stylesheet" href="css/style_page.css" />
+		
+		<!--[if IE]>
+		<script>
+		    document.createElement('header');
+		    document.createElement('nav');
+		    document.createElement('section');
+		    document.createElement('article');
+		    document.createElement('aside');
+		    document.createElement('footer');
+			</script>
+		<![endif]-->
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#" class="color_purple">Личный кабинет</a></li>
+					<li><a href="#" class="color_green">Раздел 1</a></li>
+					<li><a href="#" class="color_blue">Раздел 2</a></li>
+					<li><a href="#" class="color_orange">Раздел 3</a></li>
+					<li><a href="#" class="color_black">Раздел 4</a></li>
+					<li><a href="#" class="color_red">Раздел 5</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section id="content">
+			<aside>
+				<p>&#9728;<span>TutuRu</span> - крупнейший сервис поиска, бронирования и покупки авиабилетов и ж/д билетов.</p>
+				<p>Наша цель проста - делать наших клиентов счастливыми, а их путешествия незабываемыми. Любое путешествие начинается с поиска подходящих билетов и бронирование гостиниц. А мы делаем это качественно, обеспечивая самую лучшую поддержку благодаря собственному контакт-центру.</p>
+			</aside>
+			<article>
+				<h1>Заполните форму</h1>
+				<ul>
+					<li class="visited">1</li><li class="visited">2</li><li class="active">3</li><li class="unvisited">4</li><li class="unvisited">5</li>
+				</ul>
+				<br />
+				<span>Общая информация</span>
+				<hr class="hr"/>
+				<form>
+					<div class="line">
+						<div class="elem_form">
+							<label for="second_name">Фамилия</label><br />
+							<input type="text" name="" id="second_name" />
+						</div>
+						<div class="elem_form">
+							<label for="first_name">Имя</label><br />
+							<input type="text" name="" id="first_name" />
+						</div>
+						<div class="elem_form">
+							<label for="patronymic">Отчество</label><br />
+							<input type="text" name="" id="patronymic" />
+						</div>
+					</div>
+					<div class="line">
+						<div class="elem_form">
+							<span>Меняли фамилию?</span>
+							<input type="radio" name="changed_name" id="yes"/>
+							<label for="yes">Да</label>
+							<input type="radio" name="changed_name" id="no"/>
+							<label for="no">Нет</label>
+						</div>
+						<div class="elem_form">
+							<span>Пол</span>
+							<input type="radio" name="sex" id="male" />
+							<label for="male">Муж</label>
+							<input type="radio" name="sex" id="female" />
+							<label for="female">Жен</label>
+						</div>
+						<div class="elem_form">
+							<span>Семейное положение</span>
+							<select class="status">
+								<option>-Не выбрано-</option>
+								<option value="1">Женат</option>
+								<option value="2">Замужем</option>
+								<option value="3">Холост</option>
+								<option value="4">Не замужем</option>
+							</select>
+						</div>
+					</div>
+					<div class="line">
+						<div class="elem_form">
+							<span>Гражданство</span>
+							<select>
+								<option>-Не выбрано-</option>
+								<option value="rus">Российская Федерация</option>
+								<option value="bul">Республика Белорусь</option>
+								<option value="kz">Республика Казахстан</option>
+								<option value="china">КНР</option>
+							</select>
+						</div>							
+						<div class="elem_form">
+							<span>Дата рождения</span>
+							<select>
+								<option>-день-</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+							</select>
+							<select>
+								<option>-месяц-</option>
+								<option>январь</option>
+								<option>февраль</option>
+								<option>март</option>
+								<option>апрель</option>
+							</select>
+							<select>
+								<option>-год-</option>
+								<option>1970</option>
+								<option>1969</option>
+								<option>1968</option>
+								<option>1967</option>
+							</select>
+						</div>
+					</div>
+					<div class="line">
+						<div class="elem_form_bot">
+							<label for="bpl">Место рождения</label><br />
+							<input type="text" name="" id="bpl" />
+							<p>Например, Россия, Комсомольск-на-Амуре</p>
+						</div>
+					</div>
+					<div class="line">
+						<div class="pagin">
+							<div class="next">
+								<span>Далее&nbsp;&rarr;</span>
+							</div>
+							<div class="prev">
+								<span>&larr;&nbsp;Назад</span>
+							</div>
+						</div>
+					</div>
+				</form>
+			</article>
+		</section>
+	</body>
+</html>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		
+		<title>test</title>
+
+
+		<link rel="stylesheet" type="text/css" href="css/style_components.css" />
+
+		<script type="text/javascript" src="js/psyProgressBar.js"></script>
+
+	</head>
+	<body>
+		<p>Рейтинг</p>
+		<div>
+			<fieldset class="rating">
+				<input type="radio" name="start" id="star-1" class="star" value="1"/>
+				<label for="star-1"></label>
+				<input type="radio" name="start" id="star-2" class="star" value="2"/>
+				<label for="star-2"></label>
+				<input type="radio" name="start" id="star-3" class="star" value="3"/>
+				<label for="star-3"></label>
+				<input type="radio" name="start" id="star-4" class="star" value="4"/>
+				<label for="star-4"></label>
+				<input type="radio" name="start" id="star-5" class="star" value="5"/>
+				<label for="star-5"></label>
+			</fieldset>
+		</div>
+		<br />
+		<br />
+		<p>Загрузка</p>
+		<div class="prog_bar">
+			<progress class="progress" value="0" max="100"></progress>
+			<span class="progress_text">0%</span>
+		</div>
+		<div id="knopka">
+			<a class="button normal"><!--small, normal, big-->
+				<span>Кнопка</span>
+			</a>
+		</div>
+	</body>
+</html>
